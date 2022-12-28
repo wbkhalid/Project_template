@@ -304,26 +304,25 @@ button {
   margin-right: 1rem;
 }
 
-.price_detail a{
+.price_detail a {
   font-size: 1.5rem;
   color: #7a7a7a;
   text-decoration: underline;
   font-weight: bold;
   padding: 3rem;
-
 }
 
-.price_detail button{
+.price_detail button {
   border: 1px solid;
   padding: 2rem 8rem;
   margin: 5rem;
   font-size: 1.5rem;
-  border-radius:1rem ;
+  border-radius: 1rem;
   background-color: #fafafa;
   font-weight: bold;
 }
 
-.professional_price button{
+.professional_price button {
   background-color: #e17b83;
   color: #fff;
   border: none;
@@ -332,39 +331,38 @@ button {
 
 /* section 6 */
 
-.plan{
+.plan {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:#35c6ff ;
+  background-color: #35c6ff;
   color: #bcf7fe;
-  
+
   padding: 5rem 10rem;
   border-radius: 1rem;
   margin: 2rem 10rem;
 }
 
-.plan_1 h2{
+.plan_1 h2 {
   font-size: 3rem;
 }
 
-.plan_1 p{
- line-height: 5rem;
+.plan_1 p {
+  line-height: 5rem;
   font-size: 1.5rem;
 }
 
-.plan_2 p{
+.plan_2 p {
   background-color: #fff;
   color: #444444;
-   font-size: 1.5rem;
-   padding: 2rem 5rem;
-   border-radius: 1rem;
- }
-
+  font-size: 1.5rem;
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+}
 
 /* section 7 */
 
-.perfect_email{
+.perfect_email {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 10rem;
@@ -394,19 +392,71 @@ button {
   padding: 1rem;
 }
 
-
-.perfect_menu{
- 
+.perfect_menu {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-
 }
 
-.perfect_menu img{
+.perfect_menu img {
   width: 5rem;
   height: 5rem;
+}
 
- 
+.perfect_button {
+  background-color: #dc7c82;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 2rem 8rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  background-color: #ffffff;
+  padding: 5rem 10rem;
+}
+
+.fooetr_main{
+  padding: 0rem 5rem;
+}
+
+.fooetr_main p {
+  font-size: 1.4rem;
+  color: #bfbfc1;
+}
+
+.footer_icon {
+  display: flex;
+  justify-content: baseline;
+  padding: 2rem 0rem;
+}
+
+.footer_icon img {
+  width: 3rem;
+  margin: 0rem 1rem;
+}
+
+.footer h2 {
+  font-size: 2rem;
+  color: #828387;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #bfbfc1;
+  
 }
