@@ -124,6 +124,8 @@ button {
 .cancel {
   padding: 0rem 0rem 0rem 10rem;
   font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .cancel img {
@@ -414,6 +416,56 @@ button {
   cursor: pointer;
 }
 
+/* Section 8 */
+
+.rating {
+  background-color: #f0f3f8;
+  padding: 5rem 10rem;
+}
+
+.rating h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.rating h2 span {
+  color: #d195a0;
+  font-size: 2rem;
+}
+
+.rating p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.men_data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.data_description {
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+}
+
+.data_image img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
 /* footer */
 
 .footer {
@@ -423,7 +475,7 @@ button {
   padding: 5rem 10rem;
 }
 
-.fooetr_main{
+.fooetr_main {
   padding: 0rem 5rem;
 }
 
@@ -458,5 +510,124 @@ button {
 }
 .footer-links a {
   color: #bfbfc1;
-  
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  /* Header */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav_menu__list {
+    flex-direction: column;
+  }
+
+  /* .nav_button {
+    flex-direction: column;
+  } */
+
+  /* Section 1 */
+
+  .intro {
+    grid-template-columns: 1fr;
+  }
+
+  .intro_detail h2 {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .intro_detail p {
+    padding: 1rem;
+  }
+
+  .intro_input {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  /* Section 2 */
+
+  .company_icons {
+    flex-direction: column;
+  }
+
+  /* Section 3 */
+
+  .client_intro {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .client_intro__detail h2 {
+    padding: 1rem;
+  }
+
+  .client_intro__detail p {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    line-height: 3rem;
+  }
+
+  /* Section 4 */
+
+  .facilities {
+    grid-template-columns: 1fr;
+    margin: 5rem;
+  }
+
+  /* Section 5 */
+
+  .price_block {
+    grid-template-columns: 1fr;
+  }
+
+  .price_detail {
+    margin: 1rem;
+  }
+
+  /* Section 6 */
+
+  .plan {
+    flex-direction: column;
+  }
+
+  /* section 7 */
+
+  .perfect_email {
+    grid-template-columns: 1fr;
+  }
+
+  /* Section 8 */
+
+  .men_data {
+    grid-template-columns: 1fr;
+  }
+
+  .data_description {
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    text-align: left;
+  }
+
+  .data {
+    flex-direction: column;
+  }
+
+  /* footer */
+
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer_icon {
+    flex-direction: column;
+  }
 }
